@@ -20,6 +20,15 @@ teléfono es <teléfono>.'''
 
 # print(datos["Nombre"] + " tiene " + datos["edad"] + " años, vive en " + datos["Dirección"] + " y su telefono es " + datos["Telefono"])
 
+'''Escribir un programa que guarde en un diccionario los precios de las frutas
+de la tabla, pregunte al usuario por una fruta, un número de kilos y muestre
+por pantalla el precio de ese número de kilos de fruta. Si la fruta no está
+en el diccionario debe mostrar un mensaje informando de ello.'''
 
 
+frutas={"Plátano":1.35, "Manzana":0.8, "Pera":0.85, "Naranja":0.70}
 
+eleccion=input("Elige una fruta: ")
+peso=input("dime cuantos kilos: ")
+
+print("Pediste " + peso + " kilos de " + eleccion + ", el precio es de " + str(frutas.get*peso))

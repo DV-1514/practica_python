@@ -1,27 +1,27 @@
-# 1.
-# Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, 
-# Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
+'''1.
+ Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, 
+ Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.'''
 
 #asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 #print(asignaturas)
 
-# 2.
-# Escribir un programa que almacene las asignaturas de un curso (por ejemplo
-# Matemáticas, Física, Química, Historia y Lengua) en una lista y la 
-# muestre por pantalla el mensaje Yo estudio <asignatura>,
-# donde <asignatura> es cada una de las asignaturas de la lista.
+'''2.
+ Escribir un programa que almacene las asignaturas de un curso (por ejemplo
+ Matemáticas, Física, Química, Historia y Lengua) en una lista y la 
+ muestre por pantalla el mensaje Yo estudio <asignatura>,
+ donde <asignatura> es cada una de las asignaturas de la lista.'''
 
 #asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 #for asignaturas in asignaturas:
 #    print("yo estudio: " + asignaturas)
 
-# 3. 
-# Escribir un programa que almacene las asignaturas de un curso (por ejemplo
-# Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte 
-# al usuario la nota que ha sacado en cada asignatura, y después las muestre
-# por pantalla con el mensaje En <asignatura> has sacado <nota> donde 
-# <asignatura> es cada una des las asignaturas de la lista y 
-# <nota> cada una de las correspondientes notas introducidas por el usuario.
+'''3. 
+Escribir un programa que almacene las asignaturas de un curso (por ejemplo
+Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte 
+al usuario la nota que ha sacado en cada asignatura, y después las muestre
+por pantalla con el mensaje En <asignatura> has sacado <nota> donde 
+<asignatura> es cada una des las asignaturas de la lista y 
+<nota> cada una de las correspondientes notas introducidas por el usuario.'''
 
 #subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 #scores = []
@@ -31,10 +31,10 @@
 #for i in range(len(subjects)):
 #    print("En " + subjects[i] + " has sacado " + scores[i])
 
-# 4.
-# Escribir un programa que pregunte al usuario los números ganadores de la
-# lotería primitiva, los almacene en una lista y los muestre por pantalla
-# ordenados de menor a mayor.
+'''4.
+Escribir un programa que pregunte al usuario los números ganadores de la
+lotería primitiva, los almacene en una lista y los muestre por pantalla
+ordenados de menor a mayor.'''
 
 #awarded = []
 #for i in range(6):
@@ -42,20 +42,20 @@
 #awarded.sort()
 #print("Los números ganadores son " + str(awarded))
 
-# 5. 
-# Escribir un programa que almacene en una lista los números del 1 al 10 
-# y los muestre por pantalla en orden inverso separados por comas.
+'''5. 
+Escribir un programa que almacene en una lista los números del 1 al 10 
+y los muestre por pantalla en orden inverso separados por comas.'''
 
 #mi_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #for i in reversed(mi_lista):
 #    print(i, end=", ")
 
-# 6.
-# Escribir un programa que almacene las asignaturas de un curso (por ejemplo
-# Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte
-# al usuario la nota que ha sacado en cada asignatura y elimine de la lista
-# las asignaturas aprobadas. Al final el programa
-# debe mostrar por pantalla las asignaturas que el usuario tiene que repetir.
+'''6.
+Escribir un programa que almacene las asignaturas de un curso (por ejemplo
+Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte
+al usuario la nota que ha sacado en cada asignatura y elimine de la lista
+las asignaturas aprobadas. Al final el programa
+debe mostrar por pantalla las asignaturas que el usuario tiene que repetir.'''
 
 #asignaturas = ["Matemática", "Física", "Química", "Historia", "Lengua"]
 #for asignatura in asignaturas:
@@ -77,9 +77,9 @@
 #print("Tienes que repetir " + str(subjects))
 
 
-# 7. 
-# Escribir un programa que almacene el abecedario en una lista, elimine de la lista las 
-# letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.
+'''7. 
+Escribir un programa que almacene el abecedario en una lista, elimine de la lista las 
+letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.'''
 
 #alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 #for i in range(len(alphabet), 1, -1):
@@ -87,9 +87,9 @@
 #       alphabet.pop(i-1)
 #print(alphabet)
 
-# 8.
-# Escribir un programa que pida al usuario una palabra y
-# muestre por pantalla si es un palíndromo.
+'''8.
+Escribir un programa que pida al usuario una palabra y
+muestre por pantalla si es un palíndromo.'''
 
 #palabra = input("Coloca una palabra: ")
 #rev_palabra = palabra
