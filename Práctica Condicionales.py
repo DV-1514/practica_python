@@ -1,7 +1,4 @@
-# Condicionales
-
-# 1. 
-'''Escribir un programa que pregunte al 
+'''1. Escribir un programa que pregunte al 
 usuario su edad y muestre por pantalla si es mayor de edad o no.'''
 
 #edad=int(input("Coloca tu edad: "))
@@ -10,8 +7,7 @@ usuario su edad y muestre por pantalla si es mayor de edad o no.'''
 #else:
 #    print("Eres mayor de edad")
 
-# 2.
-'''Escribir un programa que almacene la cadena de caracteres contraseña en una variable, 
+'''2. Escribir un programa que almacene la cadena de caracteres contraseña en una variable, 
 pregunte al usuario por la contraseña e imprima por pantalla si la contraseña introducida por el 
 usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.'''
 
@@ -22,8 +18,8 @@ usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas 
 #else:
 #    print("Contraseña Incorrecta")
 
-# 3.
-'''Escribir un programa que pida al usuario dos números y muestre por pantalla su división. 
+
+'''3. Escribir un programa que pida al usuario dos números y muestre por pantalla su división. 
 Si el divisor es cero el programa debe mostrar un error.'''
 
 #dividendo = float(input("Coloca el dividendo: "))
@@ -36,8 +32,7 @@ Si el divisor es cero el programa debe mostrar un error.'''
 
 # Ver por reemplazo de error
 
-# 4.
-'''Escribir un programa que pida al usuario un número entero y 
+'''4. Escribir un programa que pida al usuario un número entero y 
 muestre por pantalla si es par o impar.'''
 
 #num = int(input("Coloca un numero entero: "))
@@ -46,8 +41,7 @@ muestre por pantalla si es par o impar.'''
 #else: 
 #    print("es impar")
 
-# 5.
-'''Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos 
+'''5. Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos 
 ingresos iguales o superiores a 1000 € mensuales. Escribir un programa 
 que pregunte al usuario su edad y sus ingresos mensuales y muestre 
 por pantalla si el usuario tiene que tributar o no.'''
@@ -59,8 +53,7 @@ por pantalla si el usuario tiene que tributar o no.'''
 #else: 
 #    print("No debes tributar impuesto")
 
-# 6.
-'''Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el nombre. 
+'''6. Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el nombre. 
 El grupo A esta formado por las mujeres con un nombre anterior a la M y los 
 hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa que 
 pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.'''
@@ -79,8 +72,7 @@ pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le cor
 #        group = "B"
 #print("Tu grupo es " + group)
 
-# 7.
-''' Escribir un programa que pregunte al usuario su renta anual 
+'''7. Escribir un programa que pregunte al usuario su renta anual 
 y muestre por pantalla el tipo impositivo que le corresponde.'''
 
 #renta = float(input("Coloca tu renta anual: "))
@@ -95,8 +87,7 @@ y muestre por pantalla el tipo impositivo que le corresponde.'''
 #else: 
 #    print("Tipo impositivo: 45%")
 
-# 8.
-'''En una determinada empresa, sus empleados son evaluados al final de cada año. 
+'''8. En una determinada empresa, sus empleados son evaluados al final de cada año. 
 Los puntos que pueden obtener en la evaluación comienzan en 0.0 y pueden ir aumentando, 
 traduciéndose en mejores beneficios. Los puntos que pueden conseguir los empleados pueden 
 ser 0.0, 0.4, 0.6 o más, pero no valores intermedios entre las cifras mencionadas. 
@@ -116,8 +107,7 @@ así como la cantidad de dinero que recibirá el usuario.'''
 #elif puntos == 0.6:
 #    print("Nivel: Meritorio, Dinero Recibido: " + str(0.6 * 2400))
 
-# 9.
-'''La pizzería Bella Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes. 
+'''9. La pizzería Bella Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes. 
 Los ingredientes para cada tipo de pizza aparecen a continuación.
 
 Ingredientes vegetarianos: Pimiento y tofu.
