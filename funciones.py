@@ -36,4 +36,25 @@ aplicarle el IVA. La función debe recibir la cantidad sin IVA y el
 porcentaje de IVA a aplicar, y devolver el total de la factura. Si se 
 invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%.'''
 
+#def factura(monto, IVA=21):
+#    return monto + monto*IVA/100
+#print(factura(100, 16))
+#print(factura(100))
+
+'''5. Escribir una función que reciba una muestra de números en
+ una lista y devuelva su media.'''
+
+#def media(*numeros):
+#    return sum(numeros) / len(numeros)
+#print(media(1, 5, 7, 8, 9, 15, 20))
+
+'''6. Escribir una función que reciba una muestra de números
+en una lista y devuelva otra lista con sus cuadrados.'''
+
+
+
+
+
+
+
 
