@@ -51,9 +51,36 @@ invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%.'''
 '''6. Escribir una función que reciba una muestra de números
 en una lista y devuelva otra lista con sus cuadrados.'''
 
+#def cuadrados(*numeros):
+#    lista=[]
+#    for i in numeros:
+#        lista.append(i**2)
+#    return lista
+#print(cuadrados(2, 3, 4, 5))
 
 
+'''7. Escribir una función que calcule el máximo común 
+divisor de dos números y otra que calcule el mínimo común múltiplo.'''
 
+#def mcd(n, m):
+#    rest = 0
+#    while(m > 0):
+#        rest = m
+#        m = n % m
+#        n = rest
+#    return n
+
+#def mcm(n, m):  
+#    if n > m:
+#        greater = n
+#    else:
+#        greater = m
+#    while (greater % n != 0) or (greater % m != 0):
+#        greater += 1
+#    return greater
+
+#print(mcd(12, 24))
+#print(mcm(12, 24))
 
 
 
